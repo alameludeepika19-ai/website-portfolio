@@ -1,0 +1,58 @@
+body{
+    font-family:Arial,sans-serif
+}
+.hero
+{background:linear-gradient(135deg,#2563eb,#7c3aed);
+    color:#fff}
+    
+.card{
+    transition:.3s
+}
+
+.card:hover{
+    transform:translateY(-5px)
+}
+#skills{
+    background:#f8f9fa;
+}
+
+.skill-card{
+    border-radius:20px;
+    transition:.35s;
+    overflow:hidden;
+}
+
+.skill-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 35px rgba(0,0,0,.15)!important;
+}
+
+.skill-icon{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:35px;
+}
+
+.progress{
+    height:10px;
+    border-radius:50px;
+    background:#e9ecef;
+}
+
+.progress-bar{
+    border-radius:50px;
+    font-size:11px;
+    font-weight:bold;
+}
+
+.bg-purple{
+    background:#6f42c1;
+}
+
+h2{
+    font-weight:700;
+}
